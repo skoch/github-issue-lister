@@ -2,19 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 
-const CheggHead = ({ title }) => (
+const GithubIssueListerHead = ({ title }) => (
   <Head>
     <title>{title}</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   </Head>
 );
 
-CheggHead.propTypes = {
+GithubIssueListerHead.propTypes = {
   title: PropTypes.string,
 };
 
-CheggHead.defaultProps = {
-  title: 'Chegg Code Challenge',
+GithubIssueListerHead.defaultProps = {
+  title: 'Github Issue Lister 9000',
 };
 
-export default CheggHead;
+export default GithubIssueListerHead;

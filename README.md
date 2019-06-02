@@ -1,4 +1,4 @@
-# Chegg Code Challenge
+# Github Issue Lister 9000
 
 ## Setup
 1. Install dependencies

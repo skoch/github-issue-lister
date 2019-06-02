@@ -5,7 +5,7 @@ import withLayout from './withLayout';
 
 export default (params) => {
   const {
-    title = 'Chegg Code Challenge',
+    title = 'Github Issue Lister 9000',
   } = params || {};
 
   return compose(

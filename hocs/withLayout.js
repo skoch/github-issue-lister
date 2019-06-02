@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import style from '../styles/with-layout.scss';
 import { getComponentDisplayName } from '../utils/misc';
-import CheggHead from '../components/Head';
+import GithubIssueListerHead from '../components/Head';
 
 export default ({ title }) => (ComposedComponent) => {
   class WithLayout extends Component {
@@ -31,7 +31,7 @@ export default ({ title }) => (ComposedComponent) => {
 
       return (
         <div className={style.root}>
-          <CheggHead title={title} />
+          <GithubIssueListerHead title={title} />
           <main>
             <ComposedComponent {...passThroughProps} />
           </main>

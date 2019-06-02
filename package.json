@@ -1,7 +1,7 @@
 {
-  "name": "chegg",
+  "name": "github-issue-lister",
   "version": "1.0.0",
-  "description": "Chegg Code Challenge",
+  "description": "Github Issue Lister 9000",
   "main": "sever/index.js",
   "scripts": {
     "start": "node server/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/skoch/chegg-code-challenge.git"
+    "url": "git+ssh://git@github.com/skoch/github-issue-lister.git"
   },
   "keywords": [
     "code",
@@ -22,9 +22,9 @@
     "> 1%"
   ],
   "bugs": {
-    "url": "https://github.com/skoch/chegg-code-challenge/issues"
+    "url": "https://github.com/skoch/github-issue-lister/issues"
   },
-  "homepage": "https://github.com/skoch/chegg-code-challenge#readme",
+  "homepage": "https://github.com/skoch/github-issue-lister#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.18.0",

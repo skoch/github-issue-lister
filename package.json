@@ -1,0 +1,59 @@
+{
+  "name": "chegg",
+  "version": "1.0.0",
+  "description": "Chegg Code Challenge",
+  "main": "sever/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "clean": "rm -rf node_modules/.cache && rm -rf .next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skoch/chegg-code-challenge.git"
+  },
+  "keywords": [
+    "code",
+    "challenge"
+  ],
+  "author": "Stephen Koch <stephen@koch.dev>",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
+  "bugs": {
+    "url": "https://github.com/skoch/chegg-code-challenge/issues"
+  },
+  "homepage": "https://github.com/skoch/chegg-code-challenge#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "next": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "babel-eslint": "^10.0.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.6.0"
+  }
+}

@@ -1,0 +1,66 @@
+@import '../variables';
+
+.root {
+  display: flex;
+  margin: 1rem 0;
+  padding: 2rem;
+  border: 0.1rem solid $black;
+  background-color: #fff;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  .sorting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+
+    button.small {
+      background-color: #fff;
+      color: $black;
+      min-width: inherit;
+      font-weight: bold;
+      padding: 0.5rem;
+      font-size: 1rem;
+      box-shadow: inherit;
+
+      &:hover {
+        background-color: darken($white, 10%);
+      }
+    }
+  }
+  .data {
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      h4 {
+        font-weight: bold;
+        span {
+          font-weight: normal;
+          margin-left: 1rem;
+          color: $grey;
+        }
+      }
+
+    }
+
+    h6 {
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .user {
+      margin: 1rem 0;
+      img {
+        width: 4rem;
+      }
+    }
+
+    a {
+      margin-top: 1rem;
+    }
+  }
+}

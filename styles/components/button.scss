@@ -1,0 +1,40 @@
+@import '../variables.scss';
+
+button {
+  font-weight: bold;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  color: $white;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  border: 0.1rem solid $black;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  transition: background-color 0.45s ease-out;
+  min-width: 20rem;
+  background-color: $black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:focus {
+    outline: 2px dotted $black;
+    outline-offset: 3px;
+  }
+
+  &:hover {
+    background-color: lighten($black, 10%);
+  }
+
+  &:active {
+    background-color: darken($black, 20%);
+  }
+
+  &:disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.25;
+  }
+}

@@ -1,0 +1,40 @@
+@import './variables';
+
+.root {
+  margin: 5rem 10rem;
+
+  @media screen and (max-width: $breakpoint-large) {
+    margin: 5rem;
+  }
+  section {
+    margin-bottom: 5rem;
+    &.repos {
+      display: flex;
+      justify-content: space-between;
+
+      @media screen and (max-width: $breakpoint-small) {
+        flex-direction: column;
+      }
+      .list {
+        width: #{$grid-column * 4 + $grid-gutter * 3};
+
+        @media screen and (max-width: $breakpoint-large) {
+          width: #{$grid-column * 3 + $grid-gutter * 2};
+        }
+
+        @media screen and (max-width: $breakpoint-small) {
+          width: 100%;
+          display: flex;
+        }
+      }
+      .issues {
+        width: 100%;
+        margin-left: $grid-gutter;
+
+        @media screen and (max-width: $breakpoint-small) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

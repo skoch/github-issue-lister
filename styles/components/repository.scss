@@ -1,0 +1,26 @@
+@import '../variables';
+
+.root {
+  margin: 1rem 0;
+  cursor: pointer;
+
+  &.active {
+    button {
+      background-color: darken($black, 20%);
+    }
+  }
+  button {
+    width: 100%;
+    flex-direction: column;
+
+    h3 {
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+
+  .issueCount {
+    font-size: 1.2rem;
+  }
+}

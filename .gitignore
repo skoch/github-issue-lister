@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# production
+out/
+build/
+.next/
+.next-export/
+
+# misc
+.DS_Store
+npm-debug.log*
+TODO.md
+
+# secrets/config
+config/

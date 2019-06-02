@@ -1,0 +1,39 @@
+.h1,
+h1 {
+  font-size: 4rem;
+}
+.h2,
+h2 {
+  font-size: 3.2rem;
+}
+.h3,
+h3 {
+  font-size: 2.4rem;
+}
+.h4,
+h4 {
+  font-size: 2rem;
+}
+.h5,
+h5 {
+  font-size: 1.8rem;
+}
+.h6,
+h6 {
+  font-size: 1.2rem;
+}
+
+a {
+  font-size: 1.2rem;
+
+  &:focus {
+    outline: 2px dotted $black;
+    outline-offset: 0.2rem;
+  }
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.444444444;
+  margin: 1.5rem 0;
+}

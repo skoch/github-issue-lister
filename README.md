@@ -1,5 +1,29 @@
 # Chegg Code Challenge
 
+## Setup
+1. Install dependencies
+```
+$ npm i
+```
+
+1. Optionally, create `./config/.env` with a key/value pair in the format:
+```
+GITHUB_API_KEY=api_key
+```
+
+1. Start server
+```
+$ npm start
+```
+
+1. Either add a valid Github API Key or optionally, it will automatically load from the config file.
+
+1. Click a repository which will display the issues for that repository.
+
+1. Order by using the up/down buttons.
+
+_NB: Should you decide not to create the above config file, the app will ask to enter a Github API Key_
+
 ## Requirements
 * The interface should accept a Github API key when first accessed.
 * The application should load all associated repositories for that API key, in a single
